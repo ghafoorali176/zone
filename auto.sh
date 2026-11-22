@@ -4,8 +4,8 @@ set -Eeuo pipefail
 # faheem Mining Live + Kryptex one-file fresh Ubuntu VPS installer
 # Run: chmod +x automatic.sh && sudo bash automatic.sh
 
-PANEL_URL="http://74.208.195.117:8443"
-ENROLL_TOKEN=" 4ec259a9148f83b3aba71b3b529f86cda9eca4233c781c3a1273b83463fd9b64"
+PANEL_URL="http://209.151.144.244:8443"
+ENROLL_TOKEN="18a90d594ba389b8926dc9586be1351f4b93a361609fd3bcdbdd9d8cfffc0b92"
 
 if [[ "${EUID}" -ne 0 ]]; then
   echo "ERROR: Root required. Run: sudo bash automatic.sh" >&2
